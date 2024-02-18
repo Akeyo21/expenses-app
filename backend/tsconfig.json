@@ -1,0 +1,14 @@
+{
+  "include": ["src/**/*", "package.json"],
+  "compilerOptions": {
+    "rootDirs": ["src"],
+    "baseUrl": "src",
+    "outDir": "dist",
+    "lib": ["es2020", "es6", "es2021",],
+    "target": "es2020",
+    "module": "esnext",
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "types": ["node"],
+  }
+}
